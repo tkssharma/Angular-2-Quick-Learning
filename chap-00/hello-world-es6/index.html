@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="//npmcdn.com/angular2@2.0.0-beta.0/bundles/angular2-polyfills.js"></script>
+
+       <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+        <script src="node_modules/typescript/lib/typescript.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="node_modules/rxjs/bundles/Rx.js"></script>
+        <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+        <script src="node_modules/angular2/bundles/http.dev.js"></script>
+
+  <script>
+    System.config({
+      transpiler: 'typescript', // <2>
+      traceurOptions: {annotations: true} // <3>
+    });
+    System.import('main.js'); // <4>
+  </script>
+</head>
+<body>
+  <hello-world></hello-world>
+</body>
+</html>
