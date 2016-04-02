@@ -50,7 +50,7 @@ localhost:8000
 ```
 ### Find Videos On YouTube
 
-[<img src="http://www.philau.edu/fye/youtube_logo-square_small.jpg" />](https://twitter.com/tkssharma)
+[<img src="http://www.philau.edu/fye/youtube_logo-square_small.jpg" />](https://www.youtube.com/channel/UCS1NeZF0Or2E1RAV9hQJz3g)
 
 
 ### Contact
